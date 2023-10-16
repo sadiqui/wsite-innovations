@@ -1,0 +1,792 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-seashell);
+    width: 180px;
+    height: 60px;
+    opacity: 0.5;
+}
+
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 10px;
+    left: 39px;
+    line-height: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 118px;
+    left: 577px;
+    width: 180px;
+    height: 60px;
+    color: var(--color-black);
+}
+
+.welcome-to-the {
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    line-height: 42px;
+}
+
+.innovations-a-service {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    display: inline-block;
+    font-family: var(--font-b612);
+    width: 837px;
+}
+
+.main {
+    position: absolute;
+    top: 112px;
+    left: 180px;
+    width: 837px;
+    height: 178px;
+}
+
+.span {
+    font-family: var(--font-font-awesome-5-free);
+}
+
+.supports {
+    font-family: var(--font-dm-sans);
+}
+
+.home-container1 {
+    line-break: anywhere;
+    width: 100%;
+}
+
+.home-container {
+    position: absolute;
+    top: 4px;
+    left: 232px;
+    line-height: 33px;
+    color: var(--color-midnightblue);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 502px;
+    height: 33px;
+    font-family: var(--font-heebo);
+}
+
+.header {
+    top: 25px;
+    left: 362px;
+    height: 290px;
+    text-align: center;
+    color: var(--color-midnightblue);
+}
+
+.work-icon {
+    position: absolute;
+    top: 387px;
+    left: 0;
+    width: 798px;
+    height: 584px;
+    object-fit: cover;
+}
+
+.blank-line {
+    margin-block-start: 0;
+    margin-block-end: 1px;
+}
+
+.by-creating-innovations {
+    margin: 0;
+}
+
+.innovation-is-the-container {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+    display: inline-block;
+    width: 780px;
+}
+
+.introduction {
+    position: absolute;
+    top: 362px;
+    left: 350px;
+    width: 798px;
+    height: 971px;
+    text-align: justify;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+}
+
+.fast-performance,
+.fast-performance1,
+.get-your-blood {
+    position: absolute;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.fast-performance {
+    top: 526px;
+    left: 0;
+    text-decoration: underline;
+    color: var(--color-teal);
+    width: 448px;
+    height: 30px;
+}
+
+.fast-performance1,
+.get-your-blood {
+    top: 40px;
+    left: 118px;
+    width: 404px;
+    height: 90px;
+}
+
+.fast-performance1 {
+    top: 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray);
+    width: 265px;
+    height: 30px;
+}
+
+.image-64-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+
+.div {
+    position: absolute;
+    top: 377px;
+    left: 1px;
+    width: 522px;
+    height: 130px;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+}
+
+.fast-performance2,
+.get-your-blood1 {
+    position: absolute;
+    top: 0;
+    left: 118px;
+    line-height: 30px;
+    display: inline-block;
+    width: 265px;
+    height: 30px;
+}
+
+.get-your-blood1 {
+    top: 40px;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+    width: 404px;
+    height: 90px;
+}
+
+.image-62-icon {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+
+.div1,
+.image-58-icon {
+    position: absolute;
+    top: 165px;
+    left: 1px;
+    width: 522px;
+    height: 130px;
+}
+
+.image-58-icon {
+    top: 7px;
+    left: 0;
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+
+.div2 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 522px;
+    height: 130px;
+}
+
+.fast-performance-parent {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 523px;
+    height: 556px;
+}
+
+.smart-jackpots-that {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    line-height: 30px;
+    display: inline-block;
+    width: 527px;
+}
+
+.smart-jackpots-that1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-15xl);
+    letter-spacing: -0.5px;
+    line-height: 50px;
+    font-family: var(--font-b612);
+    text-align: center;
+}
+
+.smart-jackpots-that-you-may-lo-parent {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 556px;
+    height: 145px;
+    font-size: var(--font-size-base);
+}
+
+.services,
+.video-icon {
+    position: absolute;
+    top: 1323px;
+    left: 470px;
+    width: 567px;
+    height: 736px;
+}
+
+.video-icon {
+    top: 0;
+    left: 0;
+    width: 846px;
+    height: 801px;
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    top: 188px;
+    left: 109px;
+    line-height: 30px;
+}
+
+.the-video {
+    position: absolute;
+    top: 1931px;
+    left: 312px;
+    width: 846px;
+    height: 801px;
+    font-size: 13px;
+    color: #8b0000;
+}
+
+.smart-jackpots-that2,
+.smart-jackpots-that3 {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+    display: inline-block;
+    width: 192px;
+}
+
+.smart-jackpots-that2 {
+    top: 430px;
+    font-weight: 500;
+}
+
+.smart-jackpots-that3 {
+    top: 462px;
+    font-size: var(--font-size-base);
+    color: var(--color-lightslategray-100);
+}
+
+.social-icon {
+    position: absolute;
+    top: 514px;
+    left: 0;
+    width: 81.43px;
+    height: 19.98px;
+}
+
+.div3,
+.image-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 380px;
+}
+
+.image-icon {
+    height: 420px;
+    object-fit: cover;
+}
+
+.div3 {
+    height: 533.98px;
+}
+
+.smart-jackpots-that4,
+.smart-jackpots-that5 {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+}
+
+.smart-jackpots-that4 {
+    top: 430px;
+    font-weight: 500;
+}
+
+.smart-jackpots-that5 {
+    top: 462px;
+    font-size: var(--font-size-base);
+    color: var(--color-lightslategray-100);
+}
+
+.div4,
+.social-icon1 {
+    position: absolute;
+    top: 514px;
+    left: 0;
+    width: 49.76px;
+    height: 19.98px;
+}
+
+.div4 {
+    top: 556px;
+    width: 380px;
+    height: 533.98px;
+}
+
+.smart-jackpots-that6,
+.smart-jackpots-that7 {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.smart-jackpots-that6 {
+    top: 430px;
+    font-weight: 500;
+    width: 144px;
+}
+
+.smart-jackpots-that7 {
+    top: 462px;
+    font-size: var(--font-size-base);
+    color: var(--color-lightslategray-100);
+    width: 192.71px;
+}
+
+.div5,
+.social-icon2 {
+    position: absolute;
+    top: 514px;
+    left: 0;
+    width: 49.76px;
+    height: 19.51px;
+}
+
+.div5 {
+    top: 1107px;
+    width: 380px;
+    height: 533.51px;
+}
+
+.smart-jackpots-that8,
+.smart-jackpots-that9 {
+    position: absolute;
+    left: 0;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.smart-jackpots-that8 {
+    top: 430px;
+    font-weight: 500;
+    width: 147px;
+}
+
+.smart-jackpots-that9 {
+    top: 462px;
+    font-size: var(--font-size-base);
+    color: var(--color-lightslategray-100);
+    width: 179px;
+}
+
+.div6 {
+    top: 1657px;
+    left: 0;
+    width: 380px;
+    height: 533.98px;
+}
+
+.bg1,
+.div6,
+.team {
+    position: absolute;
+}
+
+.team {
+    top: 372px;
+    left: 1240px;
+    width: 380px;
+    height: 2190.98px;
+    font-size: var(--font-size-xl);
+}
+
+.bg1 {
+    top: 1.86px;
+    left: 66.98px;
+    background-color: var(--color-seashell);
+    width: 1920px;
+    height: 380px;
+}
+
+.img-icon,
+.white-bg {
+    position: absolute;
+    top: 0;
+}
+
+.img-icon {
+    left: 66.98px;
+    width: 1970.18px;
+    height: 381.97px;
+    opacity: 0.6;
+}
+
+.white-bg {
+    left: 0;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    width: 1200px;
+    height: 230px;
+}
+
+.get-your-blood3 {
+    position: absolute;
+    top: 106.86px;
+    left: 45px;
+    line-height: 30px;
+    display: inline-block;
+    width: 421px;
+    height: 53px;
+}
+
+.like-our-service {
+    position: absolute;
+    top: 49.86px;
+    left: 45px;
+    font-size: var(--font-size-15xl);
+    letter-spacing: -0.5px;
+    line-height: 55px;
+    font-family: var(--font-b612);
+    color: var(--color-gray);
+}
+
+.bg2 {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    border-radius: 4px;
+    background-color: var(--color-aliceblue);
+    width: 16px;
+    height: 16px;
+}
+
+.get-your-blood4 {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.bg3,
+.checkbox {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 284px;
+    height: 30px;
+}
+
+.bg3 {
+    top: 0;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-aliceblue);
+    width: 350px;
+    height: 60px;
+}
+
+.lorem-ipsum-dolor1 {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    line-height: 40px;
+    opacity: 0.4;
+}
+
+.bg4,
+.field {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+}
+
+.field {
+    width: 350px;
+    font-size: var(--font-size-base);
+    color: var(--color-midnightblue);
+}
+
+.bg4 {
+    border-radius: var(--br-8xs);
+    background-color: #db4a87;
+    width: 150px;
+}
+
+.lorem-ipsum-dolor2 {
+    position: absolute;
+    top: 10px;
+    left: 31px;
+    line-height: 40px;
+}
+
+.button1,
+.field {
+    position: absolute;
+}
+
+.button1 {
+    top: 0;
+    left: 365px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+}
+
+.field {
+    top: 69.86px;
+    left: 640px;
+    width: 515px;
+    height: 100px;
+    font-size: var(--font-size-sm);
+    color: #9095ad;
+}
+
+.subscribe-in,
+.subscribe {
+    position: absolute;
+    top: 72px;
+    left: 426.98px;
+    width: 1200px;
+    height: 230px;
+}
+
+.subscribe-in {
+    top: 2660px;
+    left: -66.98px;
+    backdrop-filter: blur(4px);
+    width: 1986.98px;
+    height: 381.97px;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray);
+}
+
+.about-us {
+    position: absolute;
+    top: 0;
+    left: 313px;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.copyright-by-2019,
+.terms-of-use {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.copyright-by-2019 {
+    top: 98px;
+    opacity: 0.6;
+}
+
+.logo1,
+.petro1 {
+    position: absolute;
+}
+
+.petro1 {
+    top: 8px;
+    left: 41px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    width: 154px;
+    height: 24px;
+    opacity: 0.8;
+}
+
+.logo1 {
+    top: 0;
+    left: 0;
+    width: 195px;
+    height: 37px;
+    font-size: var(--font-size-xl);
+    color: var(--color-midnightblue);
+    font-family: var(--font-sans-serif-collection);
+}
+
+.terms-of-use-privacy-parent {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 214px;
+    height: 116px;
+    font-size: var(--font-size-sm);
+}
+
+.support-center-customer-container {
+    position: absolute;
+    top: 58px;
+    left: 313px;
+    font-size: var(--font-size-mini);
+    line-height: 250%;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 164px;
+    height: 175px;
+    opacity: 0.8;
+}
+
+.our-information {
+    position: absolute;
+    top: 0;
+    left: 559px;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.return-policy-privacy-container {
+    position: absolute;
+    top: 58.05px;
+    left: 559.36px;
+    font-size: var(--font-size-mini);
+    line-height: 250%;
+    color: var(--color-midnightblue);
+    opacity: 0.8;
+}
+
+.my-account {
+    position: absolute;
+    top: 0;
+    left: 802px;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.press-inquiries-social-container {
+    position: absolute;
+    top: 58px;
+    left: 802px;
+    font-size: var(--font-size-mini);
+    line-height: 250%;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 161px;
+    height: 182px;
+    opacity: 0.8;
+}
+
+.connect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.facebook-twitter-github-container {
+    position: absolute;
+    top: 58px;
+    left: 34px;
+    font-size: var(--font-size-mini);
+    line-height: 250%;
+    color: var(--color-midnightblue);
+    display: inline-block;
+    width: 180px;
+    opacity: 0.8;
+}
+
+.social-icon4 {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    width: 20px;
+    height: 131.91px;
+}
+
+.connect-parent,
+.footers {
+    position: absolute;
+    top: 0;
+    left: 1040px;
+    width: 214px;
+    height: 248px;
+}
+
+.footers {
+    top: 3138px;
+    left: 389px;
+    width: 1254px;
+}
+
+.about-innovations {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 3444px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray);
+    font-family: var(--font-dm-sans);
+}
