@@ -556,14 +556,14 @@
 }
 
 .bg4,
-.field {
+.feild {
     position: absolute;
     top: 0;
     left: 0;
     height: 60px;
 }
 
-.field {
+.feild {
     width: 350px;
     font-size: var(--font-size-base);
     color: var(--color-midnightblue);

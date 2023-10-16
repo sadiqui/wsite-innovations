@@ -109,6 +109,7 @@
     line-height: 40px;
     display: inline-block;
     width: 159.1px;
+    font-size: 20px;
 }
 
 .bg-parent,
@@ -119,7 +120,7 @@
     width: 333px;
     height: 60px;
     text-align: center;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-sm);
     font-family: var(--font-dm-sans);
 }
 
@@ -129,7 +130,7 @@
     width: 1202px;
     height: 323px;
     text-align: justify;
-    font-size: var(--font-inherit);
+    font-size: var(--font-size-sm);
     color: var(--color-black);
     font-family: var(--font-inherit);
 }
@@ -148,6 +149,7 @@
     left: 0;
     letter-spacing: -0.5px;
     line-height: 50px;
+    font-size: 30px;
 }
 
 .meeting-end-you {
