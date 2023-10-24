@@ -391,7 +391,7 @@
 
 .lorem-ipsum-dolor-container {
     position: absolute;
-    top: 0;
+    top: -13px;
     left: 31px;
     line-height: 45px;
     font-weight: 500;
@@ -399,15 +399,9 @@
     width: 170px;
 }
 
-.combined-shape-16072 {
-    position: relative;
-    width: 20px;
-    height: 20px;
-}
-
 .lorem-ipsum-dolor-sit-amet-con-parent {
     position: absolute;
-    top: 0;
+    top: 13px;
     left: 0;
     width: 201px;
     height: 91px;
@@ -415,7 +409,7 @@
 
 .lorem-ipsum-dolor-container1 {
     position: absolute;
-    top: 0;
+    top: -13px;
     left: 31px;
     line-height: 45px;
     font-weight: 500;
@@ -426,7 +420,7 @@
 .features,
 .lorem-ipsum-dolor-sit-amet-con-group {
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 221px;
     width: 236px;
     height: 91px;
@@ -436,6 +430,14 @@
     top: 345px;
     left: 0;
     width: 457px;
+}
+
+.features-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .lorem-ipsum-dolor3 {
@@ -730,7 +732,7 @@
 
 .blog {
     position: absolute;
-    top: 3072px;
+    top: 3000px;
     left: 360px;
     width: 1199.43px;
     height: 726px;
@@ -883,14 +885,14 @@
 .subscirbe,
 .subscribe {
     position: absolute;
-    top: 70.14px;
+    top: 70px;
     left: 360px;
     width: 1200px;
     height: 230px;
 }
 
 .subscirbe {
-    top: 3938.86px;
+    top: 3800px;
     left: 0;
     width: 1920px;
     height: 380.14px;
@@ -1047,16 +1049,14 @@
 }
 
 .footers {
-    top: 4368.86px;
+    top: 4250px;
     left: 360px;
     width: 1254px;
 }
 
-.home-innovations {
+body {
     position: relative;
     background-color: var(--color-white);
-    width: 100%;
-    height: 1886px;
     text-align: left;
     font-size: 32px;
     font-size: var(--font-size-lg);
