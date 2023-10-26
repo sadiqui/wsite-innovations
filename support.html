@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Free:wght@400&display=swap" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Sans Serif Collection:wght@400&display=swap" />
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-    <div class="div1">
+    <div class="div-w">
         <header class="header">
             <div class="navbar">
                 <div class="menu">
@@ -49,25 +50,25 @@
                 <div class="text">
                     <b class="accompanies">Innovations, a team that accompanies you.</b>
                     <div class="welcome">
-                        Our team is mobilized throughout the year to develop the ecosystem
-                        and the offers that satisfy our customers.
+                        Our team is mobilized throughout the year to develop
+                        the ecosystem and the offers that satisfy our customers.
                     </div>
                 </div>
             </div>
         </header>
         <section>
-            <form>
+            <form class="form">
                 <p>&nbsp;Give us a feedback</p>
                 <div class="id">
-                    <input type="text" placeholder="Full name">
+                    <input type="name" placeholder="Full name">
                     <i class="far fa-user"></i>
                 </div>
                 <div class="id">
                     <i class="far fa-envelope"></i>
-                    <input type="text" placeholder="Email address">
+                    <input type="email" placeholder="Email address">
                 </div>
-                <textarea cols="30" rows="10" placeholder="Type your message here ..."></textarea>
-                <button type="button">Send</button>
+                <textarea cols="30" rows="10" type="message" placeholder="Type your message here ..."></textarea>
+                <button type="submit">Send</button>
             </form>
         </section>
 
@@ -82,22 +83,22 @@
                     joining our business
                 </div>
                 <b class="like">Like our service? Subscribe us</b>
-                <div class="field">
+                <form class="field">
                     <div class="checkbox">
-                        <div class="bg1"></div>
+                        <input class="bg1" type="checkbox" placeholder=".">
                         <div class="promotion">
                             Don't provide any promotional message.
                         </div>
                     </div>
                     <div class="feild">
                         <div class="bg2"></div>
-                        <div class="email">Enter Email address</div>
+                        <input class="email" type="email" placeholder="Enter email address">
                     </div>
                     <div class="button">
                         <div class="bg3"></div>
-                        <b class="action">Subscribe</b>
+                        <button class="action" type="submit">Subscribe</button>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
         <footer class="footers">
@@ -143,8 +144,98 @@
         </footer>
     </div>
 
-    <div class="div2">
-
+    <div class="div-m">
+        <div class="status-bar"></div>
+        <ul class="burger">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="advertise.html">Advertise</a></li>
+            <li><a href="support.html">Supports</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="header-m">
+            <img class="lg-big" alt="" src="img/lg-big.png">
+            <b class="support-m">Support</b>
+            <div class="wrapper">
+                <img class="menu-icon" alt="" src="img/menu.png">
+            </div>
+        </div>
+        <div class="main-m">
+            <div class="accompanies-m">Innovations, a team that accompanies you.</div>
+            <div class="main-bg">
+            </div>
+            <img class="coworking-pana-1-icon" alt="" src="img/Coworking-pana 1.png">
+            <div class="ecosystem">
+                <p class="our-team-is">Our team is mobilized troughout the year</p>
+                <p class="our-team-is">to develop the ecosystem and the offers</p>
+                <p class="that-satisfy-our">that satisfy our customers.</p>
+            </div>
+        </div>
+        <div class="form-m">
+            <div class="feedback">
+                <img class="feedback-child" alt="" src="img/Line 11.png">
+                <b class="give-us-a">Give us a feedback</b>
+            </div>
+            <form class="inputs">
+                <div class="the-name">
+                    <b class="name-m">Name</b>
+                    <input class="place-name" type="name" placeholder="Jane Doe">
+                </div>
+                <div class="the-email">
+                    <b class="name-m">Email</b>
+                    <input class="place-email" type="email" placeholder="jane.doe@email.com">
+                </div>
+                <div class="the-pass">
+                    <b class="name-m">Message</b>
+                    <textarea class="place-message" cols="30" rows="10" type="message" placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="send-m">
+                    <button class="l-action" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="our-n">
+            <div class="newsletter-m">
+                <img class="feedback-child" alt="" src="img/Line 11.png">
+                <b class="give-us-a">Our Newsletter</b>
+            </div>
+            <div class="news-bg">
+            </div>
+            <div class="subscribe-m">
+                <div class="text-m">
+                    <b class="like-our">Like our service? Subscribe us.</b>
+                    <div class="we-have">We have more than thousand of creative
+                        entrepreneurs and stat joining our business</div>
+                </div>
+                <div class="action-m">
+                    <div class="button-m">
+                        <div class="p-frame1">
+                        </div>
+                        <b class="subs">Subscribe</b>
+                    </div>
+                    <div class="bg-parent">
+                        <div class="bg-m">
+                        </div>
+                        <div class="dont">Don't provide any promotional message.</div>
+                    </div>
+                    <div class="email1">
+                        <div class="e-frame1">
+                        </div>
+                        <div class="enter-email">Enter Email Address</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="div-m">^</div>
+            <div class="about-m">
+                <p class="about-us-m">About Us</p>
+                <p class="about-us-m">Information</p>
+                <p class="about-us-m">My Account</p>
+                <p class="about-us-m">Terms of use | Privacy</p>
+                <p class="that-satisfy-our">Copyright 2023 by Sadiqui, Inc</p>
+            </div>
+            <img class="social-icon-m" alt="" src="img/social.png">
+        </div>
     </div>
 </body>
 
