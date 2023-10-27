@@ -1,27 +1,33 @@
-@media screen and (min-width: 1024px) {
-    .div1 {
+@media screen and (min-width: 833px) {
+    .div-w {
         position: relative;
         background-color: var(--color-white);
         width: 100%;
-        height: 1608px;
+        height: 1616px;
+        margin-left: -15%;
         text-align: left;
         font-size: 32px;
         color: var(--color-midnightblue);
         font-family: var(--font-dm-sans);
     }
 
-    .div2 {
+    .div-m {
         display: none;
     }
 }
 
-@media screen and (max-device-width: 640px) {
-    .div1 {
+@media screen and (max-device-width: 832px) {
+    .div-w {
         display: none;
     }
 
-    .div2 {
-        position: relative;
+    .div-m {
+        margin: 0;
+        left: 78px;
+        height: 1000px;
+        position: absolute;
+        line-height: normal;
+        font-family: var(--font-dm-sans);
     }
 }
 
@@ -39,8 +45,8 @@
     position: absolute;
     top: 107px;
     left: 100px;
-    font-size: var(--font-size-base);
     line-height: 42px;
+    font-size: var(--font-size-base);
     font-family: var(--font-dm-sans);
 }
 
@@ -59,7 +65,7 @@
     font-family: var(--font-b612);
 }
 
-form {
+.form {
     position: absolute;
     top: 332px;
     left: 450px;
@@ -67,7 +73,7 @@ form {
     object-fit: cover;
 }
 
-form p {
+.form p {
     font-size: --font-size-xl;
     font-weight: 1000;
     text-align: center;
@@ -83,7 +89,7 @@ form p {
     transform: translateY(-50%);
 }
 
-form input {
+.form input {
     width: 80%;
     height: 50px;
     margin: 4px 0;
@@ -96,24 +102,24 @@ form input {
     margin-left: 100px;
 }
 
-form textarea {
+.form textarea {
     padding: 5px 15px;
     border: 1px solid #5a7184;
     border-radius: 15px;
     background: #f8f0ea;
     font-size: 20px;
-    width: 83%;
+    width: 80%;
     margin: 4px 0;
     margin-left: 100px;
 }
 
-form button {
+.form button {
     margin-top: 5px;
     border: none;
     background: #6e54fa;
     color: #fff;
     padding: 14px;
-    width: 86.5%;
+    width: 80%;
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
@@ -121,15 +127,15 @@ form button {
     margin-left: 100px;
 }
 
-form input:focus,
-form textarea:focus {
+.form input:focus,
+.form textarea:focus {
     border: 1px solid #1067cc;
     color: #1067cc;
     transition: all 0.3s ease;
 }
 
-form input:focus::placeholder,
-form textarea:focus::placeholder {
+.form input:focus::placeholder,
+.form textarea:focus::placeholder {
     padding-left: 4px;
     color: #1067cc;
     transition: all 0.3s ease;
@@ -221,20 +227,20 @@ form textarea:focus::placeholder {
     position: absolute;
 }
 
-.bg2 {
+.email {
+    top: 10px;
+    left: 24px;
+    font-size: 17px;
+    color: darkslategray;
+    line-height: 40px;
+    padding-left: 23px;
     top: 0;
     left: 0;
+    border-style: none;
     border-radius: var(--br-8xs);
     background-color: var(--color-aliceblue);
     width: 350px;
     height: 60px;
-}
-
-.email {
-    top: 10px;
-    left: 24px;
-    line-height: 40px;
-    opacity: 0.4;
 }
 
 .bg3,
@@ -261,6 +267,13 @@ form textarea:focus::placeholder {
     top: 10px;
     left: 31px;
     line-height: 40px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: var(--font-size-lg);
+    background-color: #db4a87;
+    color: var(--color-white);
+    border-style: none;
 }
 
 .action,
@@ -274,13 +287,10 @@ form textarea:focus::placeholder {
     left: 365px;
     width: 150px;
     height: 60px;
-    text-align: center;
-    font-size: var(--font-size-lg);
-    color: var(--color-white);
 }
 
 .field {
-    top: 69.86px;
+    top: 70px;
     left: 640px;
     width: 515px;
     height: 100px;
@@ -460,4 +470,502 @@ form textarea:focus::placeholder {
     width: 1254px;
     font-size: var(--font-size-lg);
     color: var(--color-gray);
+}
+
+.status-bar {
+    width: 1920px;
+}
+
+.big-2-icon {
+    position: absolute;
+    top: -0.28px;
+    left: -0.28px;
+    width: 804.28px;
+    height: 804.28px;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.big-1-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 796.28px;
+    height: 796.28px;
+    object-fit: cover;
+}
+
+.lg-big {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 700px;
+    height: 700px;
+}
+
+.support-m {
+    position: absolute;
+    top: 535px;
+    left: 717px;
+    line-height: 30px;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 210px;
+    left: 1454px;
+    width: 200px;
+    height: 200px;
+}
+
+.header-m {
+    position: absolute;
+    top: -110px;
+    left: -130px;
+    width: 1654px;
+    height: 800px;
+    font-size: 100px;
+}
+
+.accompanies-m {
+    position: absolute;
+    top: 34px;
+    left: 175px;
+    line-height: 42px;
+}
+
+.main-bg {
+    position: absolute;
+    top: 154px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    width: 1529px;
+    height: 1152px;
+}
+
+.coworking-pana-1-icon {
+    position: absolute;
+    top: 0px;
+    left: 251px;
+    width: 1030px;
+    height: 1030px;
+    object-fit: cover;
+}
+
+.our-team-is {
+    margin-block-start: 0;
+    margin-block-end: 1px;
+}
+
+.that-satisfy-our {
+    margin: 0;
+}
+
+.ecosystem {
+    position: absolute;
+    text-align: center;
+    top: 924px;
+    left: 195px;
+    line-height: 70px;
+}
+
+.main-m {
+    position: absolute;
+    top: 725px;
+    width: 1529px;
+    height: 1306px;
+    font-size: 60px;
+}
+
+.feedback-child {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 159px;
+    height: 11px;
+}
+
+.give-us-a {
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    font-size: 90px;
+    line-height: 40px;
+}
+
+.feedback {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 881px;
+    height: 115px;
+}
+
+.name-m {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 33px;
+}
+
+.n-frame {
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    border: 3px solid #9095ad;
+    box-sizing: border-box;
+    width: 1500px;
+    height: 200px;
+}
+
+.place-name {
+    position: absolute;
+    top: 104px;
+    left: 0px;
+    padding-left: 50px;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+    opacity: 0.7;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    border: 3px solid #9095ad;
+    font-size: 60px;
+    width: 1500px;
+    height: 200px;
+}
+
+.the-name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 284px;
+}
+
+.place-email {
+    position: absolute;
+    top: 105px;
+    left: 0px;
+    padding-left: 50px;
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+    opacity: 0.7;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    border: 3px solid #9095ad;
+    font-size: 60px;
+    width: 1500px;
+    height: 200px;
+}
+
+.the-email {
+    position: absolute;
+    top: 408px;
+    left: 0px;
+    width: 1500px;
+    height: 284px;
+}
+
+.p-frame {
+    position: absolute;
+    top: 99px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    border: 3px solid #9095ad;
+    box-sizing: border-box;
+    width: 1500px;
+    height: 500px;
+}
+
+.place-message {
+    position: absolute;
+    top: 119px;
+    left: 0px;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 70px;
+    color: #000;
+    text-align: left;
+    opacity: 0.7;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    border: 3px solid #9095ad;
+    font-size: 70px;
+    width: 1500px;
+    height: 500px;
+}
+
+.the-pass {
+    position: absolute;
+    top: 819px;
+    left: 0px;
+    width: 1500px;
+    height: 579px;
+}
+
+.l-frame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #ff715d;
+    width: 690px;
+    height: 200px;
+}
+
+.l-action {
+    position: absolute;
+    left: 0;
+    line-height: 33px;
+    border-radius: 50px;
+    background-color: #ff715d;
+    width: 690px;
+    height: 200px;
+    text-align: center;
+    font-size: 75px;
+    color: #fff;
+}
+
+.send-m {
+    position: absolute;
+    top: 1583px;
+    left: 0px;
+    width: 690px;
+    height: 200px;
+}
+
+.inputs {
+    position: absolute;
+    top: 354px;
+    left: 18px;
+    width: 1500px;
+    height: 1723px;
+    text-align: right;
+    font-size: 64px;
+    color: #02073e;
+}
+
+.form-m {
+    position: absolute;
+    top: 2221px;
+    width: 1518px;
+    height: 2077px;
+    text-align: left;
+    color: #00b2ab;
+}
+
+.newsletter-m {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 704px;
+    height: 115px;
+}
+
+.news-bg {
+    position: absolute;
+    top: 203px;
+    left: 9px;
+    border-radius: 50px;
+    background-color: #f8f0ea;
+    width: 1529px;
+    height: 1152px;
+}
+
+.we-have {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    line-height: 70px;
+    display: inline-block;
+    width: 1102px;
+    height: 188px;
+}
+
+.like-our {
+    position: absolute;
+    top: 0px;
+    left: 44px;
+    font-size: 70px;
+    letter-spacing: -0.5px;
+    line-height: 55px;
+    font-family: B612;
+    color: #0f2137;
+    text-align: left;
+}
+
+.text-m {
+    position: absolute;
+    top: 0px;
+    left: 137px;
+    width: 1102px;
+    height: 288px;
+}
+
+.p-frame1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #db4a87;
+    width: 1400px;
+    height: 175px;
+}
+
+.subs {
+    position: absolute;
+    top: 73px;
+    left: 531px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.button-m {
+    position: absolute;
+    top: 379px;
+    left: 0px;
+    width: 1400px;
+    height: 175px;
+    color: #fff;
+}
+
+.bg-m {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    background-color: #eff3f7;
+    border: 1px solid #9095ad;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}
+
+.dont {
+    position: absolute;
+    top: 10px;
+    left: 71px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.bg-parent {
+    position: absolute;
+    top: 271px;
+    left: 0px;
+    width: 1259px;
+    height: 50px;
+}
+
+.e-frame1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: #eff3f7;
+    border: 1px solid #9095ad;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 175px;
+}
+
+.enter-email {
+    position: absolute;
+    top: 73px;
+    left: 71px;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.email1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1400px;
+    height: 175px;
+}
+
+.action-m {
+    position: absolute;
+    top: 382px;
+    left: 0px;
+    width: 1400px;
+    height: 554px;
+    text-align: left;
+    font-size: 64px;
+    color: #9095ad;
+}
+
+.subscribe-m {
+    position: absolute;
+    top: 312px;
+    left: 69px;
+    width: 1400px;
+    height: 936px;
+    text-align: center;
+    font-size: 54.83px;
+    color: #343d48;
+}
+
+.our-n {
+    position: absolute;
+    top: 4598px;
+    width: 1538px;
+    height: 1355px;
+    text-align: left;
+    color: #00b2ab;
+}
+
+.about-us-m {
+    margin-block-start: 0;
+    margin-block-end: 70px;
+}
+
+.about-m {
+    position: absolute;
+    top: 103px;
+    left: 0px;
+    font-size: 64px;
+    line-height: 30px;
+    white-space: pre-wrap;
+    opacity: 0.9;
+}
+
+.social-icon-m {
+    position: absolute;
+    top: 53px;
+    left: 1181px;
+    width: 80px;
+    height: 500px;
+}
+
+.footer {
+    position: absolute;
+    top: 6107px;
+    width: 1261px;
+    height: 553px;
+    text-align: left;
+    color: rgba(15, 33, 55, 0.6);
+}
+
+.mobile-support {
+    position: relative;
+    border-radius: 265px;
+    background-color: #fff;
+    width: 100%;
+    height: 7100px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 96px;
+    color: #02073e;
+    font-family: 'DM Sans';
 }
