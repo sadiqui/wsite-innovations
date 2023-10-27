@@ -1,3 +1,31 @@
+@media screen and (min-width: 833px) {
+    .div-w {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 444px;
+        margin-left: -15%;
+        text-align: left;
+        font-size: var(--font-size-lg);
+        color: var(--color-gray);
+        font-family: var(--font-dm-sans);
+    }
+
+    .div-m {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 832px) {
+    .div-w {
+        display: none;
+    }
+
+    .div-m {
+        position: relative;
+    }
+}
+
 .bg {
     position: absolute;
     top: 0;
@@ -774,15 +802,4 @@
     top: 3050px;
     left: 360px;
     width: 1254px;
-}
-
-body {
-    position: relative;
-    background-color: var(--color-white);
-    width: 100%;
-    height: 444px;
-    text-align: left;
-    font-size: var(--font-size-lg);
-    color: var(--color-gray);
-    font-family: var(--font-dm-sans);
 }

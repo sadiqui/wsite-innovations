@@ -1,3 +1,30 @@
+@media screen and (min-width: 833px) {
+    .div-w {
+        position: relative;
+        background-color: var(--color-white);
+        margin-left: -15%;
+        text-align: left;
+        font-size: 32px;
+        font-size: var(--font-size-lg);
+        color: var(--color-gray-100);
+        font-family: var(--font-dm-sans);
+    }
+
+    .div-m {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 832px) {
+    .div-w {
+        display: none;
+    }
+
+    .div-m {
+        position: relative;
+    }
+}
+
 .bg,
 .illustration-icon {
     position: absolute;
@@ -1052,14 +1079,4 @@
     top: 4250px;
     left: 360px;
     width: 1254px;
-}
-
-body {
-    position: relative;
-    background-color: var(--color-white);
-    text-align: left;
-    font-size: 32px;
-    font-size: var(--font-size-lg);
-    color: var(--color-gray-100);
-    font-family: var(--font-dm-sans);
 }

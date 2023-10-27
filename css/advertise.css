@@ -1,3 +1,31 @@
+@media screen and (min-width: 833px) {
+    .div-w {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height: 1886px;
+        margin-left: -15%;
+        text-align: left;
+        font-size: 32px;
+        color: var(--color-gray);
+        font-family: var(--font-b612);
+    }
+
+    .div-m {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 832px) {
+    .div-w {
+        display: none;
+    }
+
+    .div-m {
+        position: relative;
+    }
+}
+
 .discover-our-services {
     position: absolute;
     top: 0;
@@ -459,12 +487,12 @@
 }
 
 .services {
-    top: 696.5px;
+    top: 679px;
     left: -3px;
     width: 1922px;
     height: 1149px;
     font-size: var(--font-size-15xl);
-    background-color: #F9FAFC;
+    background-color: rgba(10, 128, 128, 0.03);
 }
 
 .bg1 {
@@ -615,13 +643,13 @@
 .subscribe {
     position: absolute;
     top: 72px;
-    left: 441.06px;
+    left: 441px;
     width: 1200px;
     height: 230px;
 }
 
 .subscirbe {
-    top: 1800px;
+    top: 1771px;
     left: -77.98px;
     width: 2001.06px;
     height: 381.97px;
@@ -780,21 +808,10 @@
 }
 
 .footers {
-    top: 2260px;
+    top: 2233px;
     left: 352px;
     width: 1254px;
     text-align: left;
     font-size: var(--font-size-lg);
     font-family: var(--font-dm-sans);
-}
-
-body {
-    position: relative;
-    background-color: var(--color-white);
-    width: 100%;
-    height: 1886px;
-    text-align: left;
-    font-size: 32px;
-    color: var(--color-gray);
-    font-family: var(--font-b612);
 }
